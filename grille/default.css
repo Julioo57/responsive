@@ -163,7 +163,7 @@ article p {
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 900px)  and (max-width:1199px) {
   article{
     min-width:20%;
     max-width: 40%;
@@ -172,13 +172,17 @@ article p {
     float:left;
   }
   article:last-child{
-    margin-left:30%;
+   margin-left:30%;
   }
 }
 
 /* Pour les ordinateurs de bureau (1200px et plus) */
 @media (min-width: 1200px) {
-    *{
-        display: none;
-    }
+    article{
+        max-width: 28%;
+        margin:2.5%;
+        display: float;
+        float:left;
+      }
+    
 }

@@ -171,6 +171,9 @@ article p {
     display: float;
     float:left;
   }
+  article:last-child{
+    margin-left:30%;
+  }
 }
 
 /* Pour les ordinateurs de bureau (1200px et plus) */

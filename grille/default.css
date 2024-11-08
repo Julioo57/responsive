@@ -15,7 +15,7 @@
 }
 .bottom_header{
     position:relative;
-    text-align: center;
+    left:105px;
     margin-bottom:10%;
 }
 .bottom_header h1{
@@ -41,7 +41,6 @@ article{
     padding:3%;
     border-radius:20px;
     color:#f9f9f9;
-
 }
 article p{
     font-size:12px;
@@ -50,4 +49,13 @@ article p{
 .img_custom{
     width: 25%;
     height: auto;
+}
+/* responsive */ 
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Styles pour les tablettes en portrait et grands mobiles en paysage */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles pour les tablettes en paysage et petits ordinateurs */
+}@media (min-width: 1025px) {
+    /* Styles pour les ordinateurs de bureau */
 }

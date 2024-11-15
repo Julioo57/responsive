@@ -61,7 +61,6 @@ article h4{
     padding-left:80%;
     position: relative;
     bottom:25px;
-    
     letter-spacing: 0.1rem;
 }
 .day_2{
@@ -81,4 +80,49 @@ article h4{
 }
 .day_7{
     padding-left:18%;
+}
+
+@media (min-width: 1200px) {
+ hr{
+    display:none; 
+ }
+ article{
+    display: inline-block;
+    width: 8%;
+    max-width: 15%;
+    text-align: left;
+    margin-inline:3%;
+ }
+ article img{
+    width: 60%;
+    top:15px;
+    position: relative;
+    display: inline-block;
+    padding-left:10%;
+    margin-block:1%;
+}
+article h2{
+   display: block;
+
+}
+.modif{
+    padding-left:20%;
+}
+.modif_1{
+    padding-left:30%;
+}
+.temp_day{
+    display:inline-block;
+    position: relative;
+    top:10px;
+    left:20px;
+}
+
+article h4{
+    position:relative;
+    top:7px;
+    right:82px;
+    bottom:25px;
+    letter-spacing: 0.1rem;
+}
 }
